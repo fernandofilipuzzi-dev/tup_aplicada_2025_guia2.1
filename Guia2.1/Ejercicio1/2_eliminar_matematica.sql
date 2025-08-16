@@ -1,11 +1,9 @@
 ﻿
-
-
 USE GUIA2_1_Ejercicio1_DB;
-
 
 GO
 
+-- Consulta antes de eliminar el curso de Matemáticas
 
 SELECT a.Nombre AS Nombre_Alumno, c.Nombre AS Nombre_Curso 
 FROM Alumnos a
@@ -19,6 +17,8 @@ DELETE FROM Cursos
 WHERE Id=1;
 
 GO
+
+-- Consulta posterior a eliminar el curso de Matemáticas
 
 SELECT a.Nombre AS Nombre_Alumno, c.Nombre AS Nombre_Curso 
 FROM Alumnos a

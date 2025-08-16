@@ -42,8 +42,6 @@ CREATE TABLE Alumnos
 
 GO
 
-
-
 INSERT INTO Cursos (Nombre)
 VALUES
 ('Matemática'),
